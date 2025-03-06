@@ -1,0 +1,13 @@
+/*
+ * Spring Boot Project Metadata Information
+ * ----------------------------------------
+ * Group        : com.example   // Defines the base package name (Reverse domain notation)
+ * Artifact     : myapp         // Name of the project, used for JAR/WAR naming
+ * Name        : My Application // A user-friendly name for the project
+ * Description  : A sample Spring Boot application // Brief summary of the project
+ * Package Name : com.example.myapp // Root package for all Java classes
+ * Packaging    : JAR // Defines how the application is packaged (JAR for standalone, WAR for external deployment)
+ * Java Version : 17 // Specifies the Java version compatibility
+ *
+ * Generated using Spring Initializr: https://start.spring.io/
+ */
