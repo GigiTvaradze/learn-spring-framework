@@ -1,0 +1,32 @@
+/*
+ * Interfaces in Java
+
+ * -------------------
+ * Description     : An interface in Java is a reference type, similar to a class, that defines
+ *                   a contract (abstract methods) for what a class should do, without
+ *                   specifying how it should do it. Classes that implement the interface
+ *                   provide concrete behavior for the abstract methods.
+ *
+ * An interface is a completely "abstract class" that is used to group related methods with empty bodies:
+ interface Animal {
+   public void animalSound(); // interface method (does not have a body)
+   public void run(); // interface method (does not have a body)
+ }
+ *
+ * Key Points      :
+ *  - Interfaces cannot contain implementation (except default methods in Java 8+).
+ *  - A class can implement multiple interfaces.
+ *  - Interfaces help achieve loose coupling, as classes interact through abstractions.
+ *
+ * Example         :
+ *  - An interface "Animal" with a method "sound()". Classes like "Dog" and "Cat"
+ *    implement the "Animal" interface and provide specific implementations for "sound()".
+ */
+
+Notes on Interfaces:
+Like abstract classes, interfaces cannot be used to create objects
+Interface methods do not have a body - the body is provided by the "implement" class
+On implementation of an interface, you must override all of its methods
+Interface methods are by default abstract and public
+Interface attributes are by default public, static and final
+An interface cannot contain a constructor (as it cannot be used to create objects)

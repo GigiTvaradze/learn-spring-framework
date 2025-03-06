@@ -1,0 +1,13 @@
+/*
+ * Tight Coupling vs Loose Coupling
+ * -----------------------------------
+ * Tight Coupling  : A situation where classes or components are highly dependent
+ *                   on each other. Changes in one class usually require changes
+ *                   in other related classes, making it harder to maintain and
+ *                   modify the system.
+ *
+ * Loose Coupling  : A design approach where classes or components have minimal
+ *                   dependencies on each other. Changes in one class do not
+ *                   require changes in other classes, promoting flexibility,
+ *                   maintainability, and testability.
+ */

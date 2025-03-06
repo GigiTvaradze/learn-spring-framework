@@ -1,0 +1,17 @@
+/*
+ * Loose Coupling with Interfaces
+ * -------------------------------
+ * Description     : Loose coupling can be achieved by using interfaces, which define
+ *                   a contract for methods without specifying implementation details.
+ *                   Classes depend on abstract types (interfaces) rather than specific
+ *                   implementations, allowing flexibility to swap implementations.
+ *
+ * Example         : In a car system, the Car class can depend on an Engine interface
+ *                   rather than a specific engine implementation (e.g., ElectricEngine,
+ *                   GasEngine), making the system more flexible and decoupled.
+ *
+ * Benefits        :
+ *  - Promotes code flexibility by enabling different implementations of the interface.
+ *  - Easy to test, as mock implementations can be used in unit tests.
+ *  - Improves maintainability, as changing one implementation does not affect dependent classes.
+ */

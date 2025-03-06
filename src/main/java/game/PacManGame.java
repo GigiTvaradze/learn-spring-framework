@@ -1,16 +1,16 @@
 package game;
 
-public class SuperContraGame implements GamingConsole{
+public class PacManGame implements GamingConsole{
     public void up(){
-        System.out.println(" up");
+        System.out.println("run");
     }
     public void down(){
         System.out.println("down");
     }
     public void left(){
-        System.out.println("back");
+        System.out.println("turn left");
     }
     public void right(){
-        System.out.println("shoot a bullet");
+        System.out.println("turn right");
     }
 }
